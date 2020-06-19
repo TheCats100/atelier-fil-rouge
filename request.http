@@ -1,0 +1,20 @@
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "comment": "je suis un commentaire",
+    "date": "2005-04-02",
+    "connected": "0"
+}
+###
+PUT http://localhost:3000/users/5/bool
+Content-Type: application/json
+
+{
+    "connected": "0"
+}
+###
+DELETE http://localhost:3000/users/7
+###
+DELETE http://localhost:3000/users/bool/all
